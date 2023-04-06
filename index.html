@@ -8,23 +8,23 @@
 </head>
 <body>
     <h2>FORMS</h2>
-    <form method="get" action="./old.html">
-       <label for="name">Name</label> <input type="text" id="name " placeholder="Name">
+    <form  method="get" action="./old.html" >
+       <label for="name">Name</label> <input type="text" id="name " placeholder="Name" name="fullname">
        <br><br>
-       <label for="email"> Email Address </label><input type="email" placeholder="Email" required />
+       <label for="email"> Email Address </label><input type="email" placeholder="Email" name="email" id="email" required />
        <br><br>
-       <label for="password"> Password </label> <input type="password" placeholder="Password"/> <br><br>
+       <label for="password"> Password </label> <input type="password"  name="password" id="password" placeholder="Password"/> <br><br>
        <label for="language">Language</label><br><br>
-       <input type="radio" name="language" value="react"><label for="react">React</label>
+       <input type="radio" name="language"  value="react" id="react"><label for="react">React</label>
        <br>
-      <input type="radio" name="language" value="angular"> <label  for="angular">Angular</label>
+      <input type="radio" name="language" value="angular" id="angular"> <label  for="angular">Angular</label>
        <br>
-      <input type="radio" name="language" value="Vue" > <label for="Vue" >Vue</label>
+      <input type="radio" name="language" value="Vue"  id="Vue"> <label for="Vue" >Vue</label>
        <br><br>
        <label for="courses">Courses</label><br><br>
-      <input type="checkbox" name="courses" value="mern" required > <label for="meren"  >MERN</label><br>
-       <input type="checkbox"  name="courses" value="mean"><label for="mean">MEAN</label><br>
-       <input type="checkbox"  name="courses" value="mevn"><label for="mevn">MEVN</label><br><br>
+      <input type="checkbox" name="courses" value="mern"  id="meren" required > <label for="meren">MERN</label><br>
+       <input type="checkbox"  name="courses" value="mean" id="mean"><label for="mean">MEAN</label><br>
+       <input type="checkbox"  name="courses" value="mevn" id="mevn"><label for="mevn">MEVN</label><br><br>
        <label for="field">Field :</label><br>
        <select name="field" >
         <option value="frontend ">Frontend</option>
@@ -34,10 +34,16 @@
       <textarea name="message" id="" cols="30" rows="10"></textarea>
       <br><br>
       <label for="phone number">Phone number</label><input type="number" >
+<<<<<<< HEAD
   <input type="submit" value="Submit">
     </form>
+=======
+     <input type="submit" value="Submit">
+  
+>>>>>>> master
     <h1>Table</h1>
     <a href="./table.html">Click here</a>
+  </form>
 </body>
 
 </html>
